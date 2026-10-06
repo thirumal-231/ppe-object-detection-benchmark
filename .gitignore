@@ -1,0 +1,37 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets
+dataset/
+coco_dataset/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Training outputs
+runs/
+wandb/
+mlruns/
+
+# Evaluation outputs
+*_predictions.json
+predictions/
+results/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
